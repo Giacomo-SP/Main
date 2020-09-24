@@ -104,4 +104,4 @@ async def on_command_error(ctx, error):
     if isinstance(error, CommandNotFound):
         await ctx.message.channel.send("**ATTENZIONE:** Comando **NON TROVATO**.")
 
-bot.run("NzUzMjkwMDY2MTYzNDAwNzU0.X1kCCw.p-nMfVDqGJm1lNl1Lc8wnW_bBCo")
+bot.run("insert_token")
